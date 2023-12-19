@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url("../public/goals3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#goal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+form {
+    width: 75%;
+    margin: 10px auto;
+    word-wrap: break-word;
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+}
+
+#save-btn {
+    padding: 15px 15px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #aceca1;
+    background-color: #243119;
+    border: none;
+    border-radius: 10px;
+}
+
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#homeButton {
+    background: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    width: 100px; 
+    height: 100px;
+    top: 50px;
+    right: 800px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    
+}
+
+#homeButton img {
+    width: 70px; 
+    height: 90px;
+    position: relative;
+    top: -5px;
+    right: 5px;
+}

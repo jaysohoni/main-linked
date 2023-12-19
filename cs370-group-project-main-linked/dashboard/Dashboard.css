@@ -1,0 +1,354 @@
+body {
+    background: linear-gradient(-45deg, #e46569, #ecaf81, #60b8d4, #3745b5);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+   background-color: #96BE8C ;
+    margin: 20;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    perspective: 800px;
+}
+
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+  }
+
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+    background: linear-gradient(-45deg, #e46569, #ecaf81, #60b8d4, #3745b5);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+.container2 {
+    position: relative;
+    
+}
+.wrapper {
+    position: relative;
+}
+
+.statistics-icon {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 570px;
+    left: 16px;
+}
+.goals-icon {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 557px;
+    left: 328px;
+}
+.workouts-icon {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 573px;
+    left: 957px;
+}
+.Logo-icon {
+    width: 120px;
+    height: 150px;
+    position: absolute;
+    top: 530px;
+    left: 635px;
+}
+.challenges-icon {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 563px;
+    left: 1310px;
+}
+
+.sleep-tracking-box {
+    width: 160px;
+    font-size: 30px;
+    height: 160px;
+    background-color:#629460;
+    border: 2px solid #000; 
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    top: 400px;
+    left: 540px;
+}
+
+.sleep-tracking-box:hover{
+    background-color: #243119;
+    border: 2px solid #000; 
+}
+.meals-eaten-box {
+    width: 160px;
+    font-size: 30px;
+    height: 160px;
+    background-color: #629460;
+    border: 2px solid #000; 
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    top: 400px;
+    left: 860px;
+}
+.meals-eaten-box:hover{
+    background-color: #243119;
+    border: 2px solid #000; 
+}
+
+.big-rectangle
+{
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    border: 2px solid #000; 
+    border-radius: 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    top: 150px;
+    left: 700px;
+}
+
+.cube1{
+    width: 80px;
+    height: 80px;
+    position: fixed; 
+    top: 300px;
+    left: 1200px;
+    display: flex;
+    transform-style: preserve-3d;
+    transform: rotateX(45deg) rotateY(45deg); 
+    animation: spin 10s infinite linear; 
+  }
+
+  .cube2{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 300px; 
+    left: 100px;
+    display: flex;
+    transform-style: preserve-3d;
+    transform: rotateX(45deg) rotateY(45deg); 
+    animation: spin 10s infinite linear; 
+  }
+
+
+
+
+  .face {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #C9F2C7;
+    border: 2px solid #ACECA1;
+    line-height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .front  { transform: translateZ(40px); }
+  .back   { transform: rotateY(180deg) translateZ(40px); }
+  .right  { transform: rotateY(90deg) translateZ(40px); }
+  .left   { transform: rotateY(-90deg) translateZ(40px); }
+  .top    { transform: rotateX(90deg) translateZ(40px); }
+  .bottom { transform: rotateX(-90deg) translateZ(40px); }
+  
+  @keyframes spin {
+    from { transform: rotateX(45deg) rotateY(45deg); }
+    to { transform: rotateX(45deg) rotateY(405deg); }
+  }
+  
+
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    position: absolute;
+    top: 680px; 
+}
+
+.styled-button {
+    padding: 10px 50px;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    background-color: #629460;
+    color: #fff;
+    cursor: pointer;
+}
+.logout{
+    padding: 5px 20px;
+    font-size: 15px;
+    border: 2px solid #000;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    background-color: #629460;
+    color: #fff;
+    cursor: pointer;
+}
+
+.styled-button:hover {
+    background-color: #243119;
+    border: 2px solid #000; 
+}
+
+.Footsteps-icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+.Heartrate-icon {
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    top: 45px;
+    left: 875px;
+}
+.Distance-icon {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    left: 560px;
+}
+.Calories-icon{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    left: 760px;
+}
+
+#Steps-box{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid #000; 
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    top: 155px;
+    left: 478px;
+}
+
+#Heart-rate-box{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid #000; 
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    top: 155px;
+    left: 920px;
+}
+
+#Calories-box{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid #000; 
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    top: 260px;
+    left: 800px;
+}
+
+#Distance-box{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid #000; 
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    top: 260px;
+    left: 600px;
+}
+
+
+#logout{
+    background-color: #4CAF50; /* Green background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    text-align: center;
+    border-radius: 20px; /* Add rounded corners */
+    font-family: 'Open Sans', sans-serif; /* Set the desired font */
+    font-size: 16px; /* Set the font size */
+    cursor: pointer;
+    display: inline-block; /* Ensure the button is a block element /* Center the text */
+    text-decoration: none; /* Remove underline for links */
+    position: absolute;
+    top: 0px;
+    right: 1720px;
+    padding: 10px 20px; /* Adjust padding as needed */
+}

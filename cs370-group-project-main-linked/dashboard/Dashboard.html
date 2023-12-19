@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <button class ="logout" onclick="window.location.href='/login';" >Log Out</button>
+    <div class="wrapper">
+        
+        <div class="sleep-tracking-box1">
+            <button class="sleep-tracking-box" onclick="window.location.href='/sleep';">Sleep</button>
+        </div>
+                
+        <div class = "meals-eaten-box1">
+            <button class="meals-eaten-box" onclick="window.location.href='/mealplans';">Meals</button>
+        </div>
+
+        <div class = "big-rectangle"></div>
+    </div>
+
+
+    <div class="cube1">
+        <div class="face front">Fitness</div>
+        <div class="face back">Power</div>
+        <div class="face right">Activity</div>
+        <div class="face left">Health</div>
+        <div class="face top"></div>
+        <div class="face bottom"></div>
+    </div>
+    <div class="cube2">
+        <div class="face front">Fitness</div>
+        <div class="face back">Power</div>
+        <div class="face right">Activity</div>
+        <div class="face left">Health</div>
+        <div class="face top"></div>
+        <div class="face bottom"></div>
+    </div>
+
+    
+    <div id = "Steps-box"></div>
+
+    <div id = "Heart-rate-box"></div>
+
+    <div id = "Distance-box"></div>
+
+    <div id = "Calories-box"></div>
+
+
+    <div class ="logocontainer">
+        <div class="icon-stats">
+            <img src="https://static.thenounproject.com/png/1909072-200.png" alt="Icon" class="statistics-icon">
+        </div>
+
+        <div class="icon-Goals">
+            <img src="https://static.vecteezy.com/system/resources/previews/018/931/267/original/goal-icon-target-png.png" alt="Icon" class="goals-icon">
+        </div>
+
+        <div class="icon-workouts">
+            <img src="https://cdn-icons-png.flaticon.com/512/6016/6016314.png" alt="Icon" class="workouts-icon">
+        </div>
+
+        <div class="icon-challenges">
+            <img src="https://cdn-icons-png.flaticon.com/512/8608/8608938.png" alt="Icon" class="challenges-icon">
+        </div>
+
+        <div class="icon-logo">
+            <img src="../public/logo.png" alt="Icon" class="Logo-icon">
+        </div>
+    </div>
+                
+    <div class="container2">
+        <div class="Footsteps-logo">
+            <img src="https://cdn0.iconfinder.com/data/icons/thin-home-living/57/thin-284_foot_steps_dance-512.png" alt="Icon" class="Footsteps-icon">
+        </div>
+
+        <div class="Heartrate-logo">
+            <img src="https://th.bing.com/th/id/R.f409250fe22d506f45dcda28c6d47529?rik=WvHdrsuFtiV1dA&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_492378.png&ehk=82LquDpcUCji6YAMVMtHIWbqCYIP6gEywhszFjh%2bcnI%3d&risl=&pid=ImgRaw&r=0" alt="Icon" class="Heartrate-icon">
+        </div>
+
+        <div class="Distance-logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/7508/7508975.png" alt="Icon" class="Distance-icon">
+        </div>
+
+        <div class="Calories-logo">
+            <img src="https://static.thenounproject.com/png/1180285-200.png" alt="Icon" class="Calories-icon">
+        </div>
+    </div>
+
+    <div class="button-container">
+
+        <div class = "button-stats">
+            <button class="styled-button" onclick="window.location.href='/stats';">Stats</button>  
+        </div>
+
+        <div class = "button-goals">
+            <button class="styled-button" onclick="window.location.href='/goals';">Goals</button>
+        </div>
+
+        <div class = "button-home">
+            <button class="styled-button" onclick="window.location.href='/profile';">Profile</button>
+        </div>
+
+        <div class = "button-workouts">
+            <button class="styled-button" onclick="window.location.href='/workouts';">Workouts</button>
+        </div>
+
+        <div class = "button-challenges">
+            <button class="styled-button" onclick="window.location.href='/challenges';">Challenges</button>
+        </div>
+        
+    </div>
+
+    <script src="Dashboard.js"></script>
+
+</body>
+</html>

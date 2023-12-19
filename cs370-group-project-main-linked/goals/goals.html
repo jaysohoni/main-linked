@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="goals.css">
+    <title>Goals</title>
+</head>
+
+<body>
+    <!---<div class="bg"></div> --->
+    
+    <div id="goal-container">
+        <button id="homeButton" onclick="window.location.href='/dashboard';">
+            <img src="../public/logo.png" alt="Home">
+        </button>
+        <header>
+            <h1>GOALS</h1>
+        </header>
+
+        <form id="new-goal-form">
+            <label for="new-goal-form-input">What is your Goal?</label>
+            <input type="text" id="new-goal-form-input" placeholder="What is your Goal?" />
+        </form>
+        
+        <h2>Set Your Goals</h2>
+        <form id="steps">
+            <label for="steps-input">Step Target</label>
+            <input type="number" id="steps-input" placeholder="Step Target" />
+        </form>
+        <form id="weight">
+            <label for="weight-input">Weight Target (kg)</label>
+            <input type="number" id="weight-input" placeholder="Weight Target (kg)" />
+        </form>
+        <form id="distance">
+            <label for="weight-input">Distance Target (km)</label>
+            <input type="number" id="distance-input" placeholder="Distance Target (km)" />
+        </form>
+        <form id="heart-rate">
+            <label for="weight-input">Heart Rate Target (bpm)</label>
+            <input type="number" id="heart-rate-input" placeholder="Heart Rate Target (bpm)" />
+        </form>
+        <form id="calorie-intake">
+            <label for="weight-input">Calories Target (kcals)</label>
+            <input type="number" id="calorie-intake-input" placeholder="Calories Target (kcals)" />
+        </form>
+        <form id="sleep">
+            <label for="weight-input">Sleep Target (hrs)</label>
+            <input type="number" id="sleep-input" placeholder="Sleep Target (hrs)" />
+        </form>
+        <form id="exercise">
+            <label for="weight-input">Exercise(s) TO DO?</label>
+            <input type="text" id="exercise-input" placeholder="Exercise(s) TO DO?" />
+        </form>
+        <form id="workout">
+            <label for="weight-input">How many times per week:</label>
+            <input type="number" id="workout-input" placeholder="How many times per week:" />
+        </form>
+        <button id = "save-btn" type="submit">SAVE</button>
+    </div>
+    <script src="goals.js"></script>
+</body>
+
+</html>

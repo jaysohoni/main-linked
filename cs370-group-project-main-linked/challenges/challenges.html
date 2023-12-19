@@ -1,0 +1,489 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <title>Weight Loss Challenges - New Version</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="challenges.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading-container">
+            <!-- <div class="image-container">
+                <img src="Jumpgif.gif" alt="Image description">
+            </div> -->
+            <div class="text-box"></div>
+            <h1 class="animated-heading">Weight Loss Challenges</h1>
+            <!-- <div class="image-container1">
+                <img src="One, two! One, two!.gif" alt="Image description">
+            </div> -->
+        </div>
+
+        <select id="challenge">
+            <option disabled selected>Please select a challenge</option>
+            <option>Easy: Walk for 30 minutes every day for a week</option>
+            <option>Easy: Hold a plank for 30 seconds, gradually increasing by 5 seconds each day for a week</option>
+            <option>Easy: Do 50 squats daily for a week</option>
+            <option>Easy: Complete 10 push-ups daily for a week</option>
+            <option>Easy: Perform 100 jumping jacks in a single session</option>
+            <option>Easy: Do 20 alternating lunges per leg daily for a week</option>
+            <option>Easy: Hold a wall sit for 30 seconds, increasing by 5 seconds each day for a week</option>
+            <option>Easy: Complete 5 burpees daily for a week</option>
+            <option>Easy: Do 20 calf raises daily for a week</option>
+            <option>Easy: Perform 15 bicycle crunches per side daily for a week</option>
+            
+            <option>Medium: Run 2 miles without stopping</option>
+            <option>Medium: Do 20 push-ups and 20 sit-ups daily for a week</option>
+            <option>Medium: Hold a plank for 1 minute and side plank for 30 seconds on each side daily for a week</option>
+            <option>Medium: Jump rope for 10 minutes without tripping</option>
+            <option>Medium: Do 50 dumbbell squats with proper form</option>
+            <option>Medium: Complete 10 burpees and 20 mountain climbers daily for a week</option>
+            <option>Medium: Perform 5 pull-ups (with assistance if needed) daily for a week</option>
+            <option>Medium: Swing a kettlebell for 10 minutes</option>
+            <option>Medium: Do 20 box jumps (using a sturdy surface) in a single session</option>
+            <option>Medium: Row 2,000 meters on a rowing machine</option>
+
+            <option>Hard: Run a half marathon (13.1 miles) within a month</option>
+            <option>Hard: Complete 100 push-ups in a single session</option>
+            <option>Hard: Master advanced yoga poses like headstands and arm balances</option>
+            <option>Hard: Sprint up a steep hill for 10 repetitions</option>
+            <option>Hard: Complete a challenging CrossFit workout of the day (WOD)</option>
+            <option>Hard: Perform 10 handstand push-ups</option>
+            <option>Hard: Do 50 plyometric box jumps in one session</option>
+            <option>Hard: Lift your body weight in a barbell deadlift</option>
+            <option>Hard: Train for and complete an Ironman triathlon</option>
+            <option>Hard: Conquer a challenging rock climbing route</option>
+            
+            <option>Advanced: Complete ten Ironman triathlons in ten days</option>
+            <option>Advanced: Achieve a 1000-pound total in the squat, bench press, and deadlift</option>
+            <option>Advanced: Master advanced gymnastics moves like the planche or muscle-up</option>
+            <option>Advanced: Cycle 100 miles in one day</option>
+            <option>Advanced: Train for and complete a challenging ultra-distance triathlon</option>
+            <option>Advanced: Achieve proficiency in Olympic weightlifting techniques</option>
+            <option>Advanced: Master the Iron Cross on gymnastic rings</option>
+            <option>Advanced: Conquer a V8 bouldering problem in rock climbing</option>
+            <option>Advanced: Participate in the World's Toughest Mudder event</option>
+            <option>Advanced: Achieve a high powerlifting total (squat, bench press, deadlift)</option>
+
+            <option>Expert: Master free solo climbing on advanced routes</option>
+            <option>Expert: Conquer a challenging peak, like Mount Everest</option>
+            <option>Expert: Participate in a multi-day ultra-endurance adventure race</option>
+            <option>Expert: Compete in the World's Strongest Man competition</option>
+            <option>Expert: Run a 100-mile ultramarathon in a challenging terrain</option>
+            <option>Expert: Climb Mount Everest or another challenging peak</option>
+            <option>Expert: Complete twenty Ironman triathlons in twenty days</option>
+            <option>Expert: Train like an elite athlete and follow a comprehensive CrossFit program</option>
+            <option>Expert: Run an ultra marathon (50K or more) within a year</option>
+            <option>Expert: Master the Iron Cross on gymnastic rings</option> 
+        </select>
+
+        <button id = "submit" type="submit">Submit Challenge</button>
+
+        <button id="homeButton" onclick="window.location.href='/dashboard';">
+            <img src="../public/logo.png" alt="Home">
+        </button>
+
+        <button id="pchall" onclick="window.location.href='../public/pchallenges.html';" >My Challenges</button>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide animated-table1">
+                    <table>
+                        <tr>
+                            <th>Easy</th>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Walking Challenge: Walk for 30 minutes every day for a week.
+                                <br>
+                                <span>&#8226; Tip: Find a scenic route to make it more enjoyable.
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Plank Challenge: Hold a plank for 30 seconds, gradually increasing by 5 seconds each day for a week.
+                                <br>
+                                <span>&#8226; Tip: Focus on maintaining proper form to avoid injury.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Squat Challenge: Do 50 squats daily for a week.
+                                <br>
+                                <span>&#8226; Tip: Keep your knees behind your toes to protect your joints.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Push-Up Challenge: Complete 10 push-ups daily for a week.
+                                <br>
+                                <span>&#8226; Tip: Modify push-ups on your knees if needed, and focus on your chest and core.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Jumping Jacks Challenge: Perform 100 jumping jacks in a single session.
+                                <br>
+                                <span>&#8226; Tip: Land softly to reduce impact on your joints.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Lunges Challenge: Do 20 alternating lunges per leg daily for a week.
+                                <br>
+                                <span>&#8226; Tip: Maintain a straight posture and engage your core.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Wall Sit Challenge: Hold a wall sit for 30 seconds, increasing by 5 seconds each day for a week.
+                                <br>
+                                <span>&#8226; Tip: Keep your back against the wall and thighs parallel to the ground.
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Burpee Challenge: Complete 5 burpees daily for a week.
+                                <br>
+                                <span>&#8226; Tip: Focus on controlled movements to prevent injury.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Calf Raise Challenge: Do 20 calf raises daily for a week.
+                                <br>
+                                <span>&#8226; Tip: Use a step or platform to increase the range of motion.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Bicycle Crunch Challenge: Perform 15 bicycle crunches per side daily for a week.
+                                <br>
+                                <span>&#8226; Tip: Engage your core muscles and avoid pulling on your neck.</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="swiper-slide animated-table2">
+                    <table>
+                        <tr>
+                            <th>Medium</th>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Running Challenge: Run 2 miles without stopping.
+                                <br>
+                                <span>&#8226; Tip: Start at a comfortable pace and gradually increase your distance.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Push-Up and Sit-Up Combo Challenge: Do 20 push-ups and 20 sit-ups daily for a week.
+                                <br>
+                                <span>&#8226; Tip: Maintain good form and proper breathing throughout.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Plank and Side Plank Challenge: Hold a plank for 1 minute and side plank for 30 seconds on each side daily for a week.
+                                <br>
+                                <span>&#8226; Tip: Focus on keeping a strong core and hip position.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Jump Rope Challenge: Jump rope for 10 minutes without tripping.
+                                <br>
+                                <span>&#8226; Tip: Start slow and increase your speed as you get comfortable.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Dumbbell Squat Challenge: Do 50 dumbbell squats with proper form.
+                                <br>
+                                <span>&#8226; Tip: Use weights that challenge you without sacrificing form.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Burpee and Mountain Climber Combo Challenge: Complete 10 burpees and 20 mountain climbers daily for a week.
+                                <br>
+                                <span>&#8226; Tip: Maintain a steady pace for better endurance.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Pull-Up Challenge: Perform 5 pull-ups (with assistance if needed) daily for a week.
+                                <br>
+                                <span>&#8226; Tip: Focus on your back muscles and controlled movements.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Kettlebell Swing Challenge: Swing a kettlebell for 10 minutes.
+                                <br>
+                                <span>&#8226; Tip: Maintain a strong hip hinge and use proper kettlebell technique.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Box Jumps Challenge: Do 20 box jumps (using a sturdy surface) in a single session.
+                                <br>
+                                <span>&#8226; Tip: Start with a lower platform and progress gradually.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Rowing Challenge: Row 2,000 meters on a rowing machine.
+                                <br>
+                                <span>&#8226; Tip: Maintain proper rowing technique for efficiency and safety.</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="swiper-slide animated-table3">
+                    <table>
+                        <tr>
+                            <th>Hard</th>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Half-Marathon Challenge: Run a half marathon (13.1 miles) within a month.
+                                <br>
+                                <span>&#8226; Tip: Train with a running plan and pace yourself during the race.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                100 Push-Up Challenge: Complete 100 push-ups in a single session.
+                                <br>
+                                <span>&#8226; Tip: Break them into sets to maintain proper form and prevent fatigue.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Advanced Yoga Challenge: Master advanced yoga poses like headstands and arm balances.
+                                <br>
+                                <span>&#8226; Tip: Seek guidance from a certified yoga instructor for safety.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Hill Sprint Challenge: Sprint up a steep hill for 10 repetitions.
+                                <br>
+                                <span>&#8226; Tip: Warm up thoroughly and use proper sprinting form.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                CrossFit WOD Challenge: Complete a challenging CrossFit workout of the day (WOD).
+                                <br>
+                                <span>&#8226; Tip: Start with a scaled version if you're new to CrossFit.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Handstand Push-Up Challenge: Perform 10 handstand push-ups.
+                                <br>
+                                <span>&#8226; Tip: Develop shoulder and core strength before attempting this.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Plyometric Box Jump Challenge: Do 50 plyometric box jumps in one session.
+                                <br>
+                                <span>&#8226; Tip: Use a safe and sturdy box, and focus on explosive power.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Barbell Deadlift Challenge: Lift your body weight in a barbell deadlift.
+                                <br>
+                                <span>&#8226; Tip: Ensure proper form and start with lighter weights to build strength.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Ironman Triathlon Challenge: Train for and complete an Ironman triathlon.
+                                <br>
+                                <span>&#8226; Tip: Seek professional coaching and follow a structured training plan.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Rock Climbing Challenge: Conquer a challenging rock climbing route.
+                                <br>
+                                <span>&#8226; Tip: Begin with indoor climbing and take lessons to improve technique and safety.</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="swiper-slide animated-table4">
+                    <table>
+                        <tr>
+                            <th>Advanced</th>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Ultra Marathon Challenge: Run an ultra marathon (50K or more) within a year.
+                                <br>
+                                <span>&#8226; Tip: Extensive training and nutrition planning are crucial.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                1000-Rep Challenge: Perform 1000 reps of various exercises in a single day.
+                                <br>
+                                <span>&#8226; Tip: Break this into multiple sessions or focus on different muscle groups.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Gymnastics Strength Challenge: Master advanced gymnastics moves like the planche or muscle-up.
+                                <br>
+                                <span>&#8226; Tip: Progression and consistent practice are essential.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                100-Mile Cycling Challenge: Cycle 100 miles in one day.
+                                <br>
+                                <span>&#8226; Tip: Plan your route and ensure proper nutrition and hydration.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Triathlon X Challenge: Train for and complete a challenging ultra-distance triathlon.
+                                <br>
+                                <span>&#8226; Tip: Professional coaching and meticulous preparation are necessary.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Olympic Weightlifting Challenge: Achieve proficiency in Olympic weightlifting techniques.
+                                <br>
+                                <span>&#8226; Tip: Seek a certified coach for proper instruction.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Iron Cross Challenge: Master the Iron Cross on gymnastic rings.
+                                <br>
+                                <span>&#8226; Tip: This is an extremely advanced move; consult a gymnastics coach.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Boulder V8 Challenge: Conquer a V8 bouldering problem in rock climbing.
+                                <br>
+                                <span>&#8226; Tip: Advanced climbing techniques and finger strength are required.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                World's Toughest Mudder Challenge: Participate in the World's Toughest Mudder event.
+                                <br>
+                                <span>&#8226; Tip: Train in all-terrain conditions and for long-duration obstacles.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Powerlifting Total Challenge: Achieve a high powerlifting total (squat, bench press, deadlift).
+                                <br>
+                                <span>&#8226; Tip: Work with a powerlifting coach to optimize your lifts and technique.</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="swiper-slide animated-table5">
+                    <table>
+                        <tr>
+                            <th>Expert</th>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Deca Ironman Challenge: Complete ten Ironman triathlons in ten days.
+                                <br>
+                                <span>&#8226; Tip: Elite-level training and recovery strategies are essential.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                1000-Pound Club Challenge: Achieve a 1000-pound total in the squat, bench press, and deadlift.
+                                <br>
+                                <span>&#8226; Tip: Work with a powerlifting coach to maximize your strength.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Everest Summit Challenge: Climb Mount Everest or another challenging peak.
+                                <br>
+                                <span>&#8226; Tip: This requires extensive mountaineering training and experience.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Ultra-Endurance Adventure Race Challenge: Participate in a multi-day ultra-endurance adventure race.
+                                <br>
+                                <span>&#8226; Tip: Elite training, nutrition, and navigation skills are vital.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Free Solo Climbing Challenge: Master free solo climbing on advanced routes.
+                                <br>
+                                <span>&#8226; Tip: Only attempt this with extensive climbing experience and expert guidance.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                World's Strongest Man Challenge: Compete in the World's Strongest Man competition.
+                                <br>
+                                <span>&#8226; Tip: Work with a professional strongman coach and follow a specialized program.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                100-Mile Ultramarathon Challenge: Run a 100-mile ultramarathon in a challenging terrain.
+                                <br>
+                                <span>&#8226; Tip: Train extensively, refine nutrition, and build mental resilience.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Extreme CrossFit Games Challenge: Qualify for and compete in the CrossFit Games.
+                                <br>
+                                <span>&#8226; Tip: Train like an elite athlete and follow a comprehensive CrossFit program.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Grand Canyon Rim-to-Rim-to-Rim Challenge: Hike or run across the Grand Canyon and back in one day.
+                                <br>
+                                <span>&#8226; Tip: Be prepared for extreme conditions and rugged terrain.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="challenge-text">
+                                Double Deca Ironman Challenge: Complete twenty Ironman triathlons in twenty days.
+                                <br>
+                                <span>&#8226; Tip: This is an extreme challenge; professional coaching, nutrition, and mental preparation are paramount.</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Add Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="challenges.js"></script>
+</body>
+</html>

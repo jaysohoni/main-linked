@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="background">
+<head>
+    <link rel="stylesheet" type="text/css" href="sleep.css">
+    <title>Sleep Stats</title>
+</head>
+<body>
+    <header>
+        <!-- Header content goes here -->
+    </header>
+    <br>
+    <body>
+        <button id="homeButton" onclick="location.href='/dashboard';">
+            <img src="../public/logo.png" alt="Home">
+        </button>
+        
+        <div class="h1-box">
+            <h1>Sleep Stats</h1>
+        </div>
+        <p>Here are some sleep stats about your health!</p>
+        <div class="box">
+            <h5>Sleep Duration (minutes): </h5>   
+            <span class="line-box" id="sleepDurationBox"></span>
+
+            <h5>Deep Sleep (minutes): </h5>   
+            <span class="line-box" id="deepSleepBox"></span>
+
+            <h5>Light Sleep (minutes): </h5>   
+            <span class="line-box" id="lightSleepBox"></span>
+
+            <h5>Rapid Eye Movement (REM) (minutes): </h5>   
+            <span class="line-box" id="remBox"></span>
+
+            <h5>Time Awake (minutes): </h5>   
+            <span class="line-box" id="awakeBox"></span>
+        </div>
+        <!-- Main content goes here -->
+        <script src="sleep.js"></script>;
+    </body>
+
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+</body>
+</html>
